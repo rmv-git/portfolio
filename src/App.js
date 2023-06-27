@@ -1,9 +1,10 @@
 import './App.css';
+import {Header} from "./components/header/Header";
 
-export function App() {
+export const App = () => {
     return (
         <div className="App">
-            PORTFOLIO
+            <Header/>
         </div>
     );
 }
