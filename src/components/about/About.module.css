@@ -1,0 +1,100 @@
+.content {
+    height: max-content;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: column;
+    padding: 15px 0 15px 0;
+}
+
+.sectionTitle {
+}
+
+.animatedBar {
+
+}
+
+.infoSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.infoImg {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+}
+
+.img {
+
+}
+
+.contentBlock {
+
+}
+
+.contentBlock h2 {
+    margin: 0;
+}
+
+.contentBlock h6 {
+    margin: 0;
+
+}
+
+.contentSubtitle {
+    color: #009e66;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contentBlock h6 {
+    margin: 0;
+
+}
+
+.contentTitle {
+    position: relative;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.contentDescription p {
+    margin: 0;
+}
+
+.contentInfo {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.contentContact {
+    font-size: 15px;
+    margin-bottom: 4px;
+    padding: 29px 0;
+}
+
+.singleInfo {
+
+}
+
+.contactInfo {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    flex-flow: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
