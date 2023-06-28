@@ -1,13 +1,11 @@
 import React from "react";
 import style from './About.module.css'
+import {Header} from "../../common/header/Header";
 
 export const About = () => {
     return (
         <div className={style.content}>
-            <div id={'about'}>
-                <h3>About Me</h3>
-                <h5>Get to know me</h5>
-            </div>
+            <Header title={'About Me'} description={'Get to know me'}/>
             <div className={style.infoSection}>
                 <div className={style.infoImg}>
                     <img className={style.img} src="" alt="About img"/>
