@@ -1,0 +1,56 @@
+.content {
+    /*background-color: cadetblue;*/
+    padding: 15px 0 15px 0;
+}
+
+.skillWrapper {
+    width: 250px;
+    /*background-color: teal;*/
+    /*background-color: #3513AA;*/
+    background-color: #116466;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.skillSection {
+    display: flex;
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sectionHeader {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+}
+
+.contentSkill {
+}
+
+.imageIcon {
+    height: 64px;
+    width: 64px;
+}
+
+.contentDescription h3 {
+    margin: 0;
+}
+
+.descriptionTitle {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+}
